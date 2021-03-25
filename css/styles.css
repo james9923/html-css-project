@@ -1,0 +1,175 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+	body{
+		font-family: Helvetica
+	}
+
+	.container{
+		border: 1px solid purple;
+		width: 90%;
+		margin: auto;
+	}
+
+
+	.header{
+		width: 100%;
+		height: 100px;
+		background: linear-gradient(#931CE0, red);
+		position: relative;
+	}
+
+	.logo{
+		color: white;
+		position: relative;
+		top: 25px;
+		left: 30px;
+	}
+
+	.logo h3{
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+
+	.logo span{
+		color: gold;
+		font-family: cursive;
+		margin-right: 5px;
+
+	}
+
+	.header form{
+			position: absolute;
+			left: 30%;
+			top: 30px;
+	}
+
+	.header input[type=text]{
+		width: 300px;
+		height: 20px;
+		padding: 10px;
+	}
+
+	.header input[type=submit]{
+		width: 150px;
+		height: 40px;
+		background-color: white;
+		color: purple;
+		font-size: 24px;
+		margin-left: -20px;
+	}
+
+	.header .nav{
+		color: white;
+		position: absolute;
+		right: 20px;
+		top: 30px;
+	}
+
+	.header .nav a{
+		color: #fff;
+		text-decoration: none;
+		display: inline-block;
+		padding: 10px 20px;
+		letter-spacing: 2px;
+	}
+
+	ul{
+		list-style: none;
+	}
+
+
+	.footer{
+		background: #000;
+ 	    background: rgba(0,0,0,.85);
+ 	    position: relative;
+ 	    min-height: 150px;
+ 	    clear: both;
+	}
+
+	.footer .contact, .footer .socials, .footer .links{
+		/*border: 1px solid white;*/
+		width: 25%;
+	}
+
+
+	.footer .contact {
+		position: relative;
+		top: 20px;
+		left: 20px;
+	}
+
+	.footer .links{
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
+
+	.footer .socials{
+		position: absolute;
+		left: 38%;
+		top: 20px;
+	}
+
+	.footer h3{
+		text-decoration: underline;
+		color: #f4f4f4;
+		margin-bottom: 20px
+
+	}
+
+
+	.mini{
+		border: 1px solid purple;
+		width: 20%;
+
+	}
+
+	.main{
+		border: 1px solid purple;
+		width: 75%;
+		margin-left: 2%;
+	}
+
+	.mini, .main{
+		float: left;
+	}
+
+	.product{
+		border: 1px solid purple;
+		width: 15%;
+		margin:20px;
+		padding: 10px;
+		position: relative;
+		height: 350px;
+		float: left;
+	}
+
+	.product .image{
+		width: 100%;
+		/*border: 1px solid red;*/
+	}
+
+	img{
+		width: 100%;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+	.call-to-action{
+		background-color: purple;
+		padding: 10px;
+		color: white;
+		position: absolute;
+		bottom: 5px;
+	}
+
+	.footer li{
+		margin-bottom: 10px;
+		color: white
+	}
